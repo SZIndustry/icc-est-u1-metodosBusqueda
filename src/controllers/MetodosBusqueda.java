@@ -38,7 +38,7 @@ public class MetodosBusqueda {
                 return People[i].toString(); 
             }
         }
-        return "nada"; 
+        return "nada";
     }
 
     public void showPersonByName() {
@@ -62,4 +62,5 @@ public class MetodosBusqueda {
             showConsole.showMessage("Persona con código " + codeToFind + " no encontrada"); 
         }
     }
+    
 }
